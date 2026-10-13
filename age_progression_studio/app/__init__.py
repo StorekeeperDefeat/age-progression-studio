@@ -1,0 +1,1 @@
+"""Application shell: bootstrap, CLI dispatch, Qt window wiring."""
