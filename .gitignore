@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Model weights (large, not tracked)
+weights/*.pt
+weights/*.onnx
+weights/*.pth
+
+# Outputs
+out/
+*.aged.png
+
+# IDE / OS
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
