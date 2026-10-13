@@ -1,0 +1,14 @@
+[app]
+log_level = "INFO"
+default_model = "aps-v3"
+output_dir = "./out"
+max_resolution = 1024
+
+[render]
+keep_identity = 0.78
+blend_strength = 0.92
+face_parse = true
+
+[device]
+prefer = ["cuda", "dml", "cpu"]
+fp16 = true
