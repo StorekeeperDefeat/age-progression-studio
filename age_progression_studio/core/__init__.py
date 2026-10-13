@@ -1,0 +1,1 @@
+"""Core pipeline: detection → alignment → identity → synthesis."""
